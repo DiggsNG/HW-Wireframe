@@ -5,45 +5,79 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 
 }
 header {
     background: #ebebeb;
     width: 960px;
     text-align: center;
+    
 }
 nav {
     background: #ebebeb;
     width: 960px;
     text-align: center;
+        
 }
-section {
+
+head1 {
+    color: #777;
     background: #ebebeb;
-    width: 495px;
-    text-align: center;
+    text-align:center;
+    width: 360px;
+    
+
+}
+#art {
+   color: #ebebeb;
+   background: #777;
+   text-align:center;
+   width: 360px;
+}
+#para {
+    color: #777;
+    background: #ebebeb;
+    text-align:center;
+    margin-bottom: 70px;
+    width: 360px
+
 }
 aside {
     float: right;
     background: #ebebeb;
-    width: 495px;
+    width: 400px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
     text-align: center;
 }
 article {    
-    height: 200px;
-    background: #777;
-    color:#ebebeb;
-    width: 495px;
+     
+    background: #ebebeb;
+    color:#777;
+    width: 400px;
+    margin-bottom: 10px;
     text-align: center;
 }
 #group {
-    width: 495px;
+    
     background: #ebebeb;
-    overflow: auto;
-    clear: both;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+     
+    margin-top: 10px;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
        
 }
 footer {
     background: #ebebeb;
     width: 960px;
+    clear: both;
     text-align: center;
+    
 }
